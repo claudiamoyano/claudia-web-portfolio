@@ -1,59 +1,53 @@
-# ClaudiaPortfolio
+# CLAUDIA MOYANO | Portfolio ݁ ˖Ი𐑼⋆
+¡Holi! Este es mi portfolio personal, un espacio donde comparto mi viaje como desarrolladora Front End y futura diseñadora UX/UI. 𐔌՞ ܸ.ˬ.ܸ՞𐦯⭐
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.11.
+🔗 [**heyclaudia.vercel.app**](https://heyclaudia.vercel.app)
 
-## Development server
+## 🎀 Tecnologías
 
-To start a local development server, run:
+### Front End
+![Angular](https://img.shields.io/badge/Angular-19-ff4081?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-4fc3f7?style=for-the-badge&logo=typescript&logoColor=white)
+![PrimeNG](https://img.shields.io/badge/PrimeNG-19-9575cd?style=for-the-badge&logo=primeng&logoColor=white)
+![PrimeIcons](https://img.shields.io/badge/PrimeIcons-5.x-80cbc4?style=for-the-badge&logo=primeicons&logoColor=white)
 
-```bash
-ng serve
-```
+### Internacionalización
+![ngx-translate](https://img.shields.io/badge/ngx--translate-15.x-ffb74d?style=for-the-badge&logo=i18n&logoColor=white)
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### Hosting
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-## Code scaffolding
+## 💌 Contacto
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+¡Me encantaría saber de ti! Si tienes alguna pregunta, propuesta o solo quieres saludar, aquí tienes cómo encontrarme. ⸜(｡˃ ᵕ ˂ )⸝💗
 
-```bash
-ng generate component component-name
-```
+| Medio | Enlace |
+|-------|--------|
+| 📭 **Correo** | [claudiamoyano@proton.me](mailto:claudiamoyano@proton.me) |
+| 💼 **LinkedIn** | [@cmoyanoh](https://www.linkedin.com/in/cmoyanoh/) |
+| 📷 **Instagram** | [@licorlima.vs](https://www.instagram.com/licorlima.vs) |
+| 💻 **GitHub** | [@claudiamoyano](https://github.com/claudiamoyano) |
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 📦 Instalación y uso
 
-## Building
+### Requisitos
 
-To build the project run:
+- Node.js >= 18.x
+- Angular CLI >= 19.x
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+### Pasos
 
 ```bash
-ng e2e
-```
+# 1. Clonar el repositorio
+git clone https://github.com/claudiamoyano/Claudia-Portfolio.git
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+# 2. Instalar dependencias
+npm install
 
-## Additional Resources
+# 3. Ejecutar en desarrollo
+npm start
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+# 4. Construir para producción
+npm run build
