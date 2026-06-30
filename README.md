@@ -6,13 +6,13 @@
 ## 🎀 Tecnologías
 
 ### Front End
-![Angular](https://img.shields.io/badge/Angular-19-ff4081?style=for-the-badge&logo=angular&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.x-4fc3f7?style=for-the-badge&logo=typescript&logoColor=white)
-![PrimeNG](https://img.shields.io/badge/PrimeNG-19-9575cd?style=for-the-badge&logo=primeng&logoColor=white)
-![PrimeIcons](https://img.shields.io/badge/PrimeIcons-5.x-80cbc4?style=for-the-badge&logo=primeicons&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-ff4081?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-4fc3f7?style=for-the-badge&logo=typescript&logoColor=white)
+![PrimeNG](https://img.shields.io/badge/PrimeNG-9575cd?style=for-the-badge&logo=primeng&logoColor=white)
+![PrimeIcons](https://img.shields.io/badge/PrimeIcons-80cbc4?style=for-the-badge&logo=primeicons&logoColor=white)
 
 ### Internacionalización
-![ngx-translate](https://img.shields.io/badge/ngx--translate-15.x-ffb74d?style=for-the-badge&logo=i18n&logoColor=white)
+![ngx-translate](https://img.shields.io/badge/ngx--translate-ffb74d?style=for-the-badge&logo=i18n&logoColor=white)
 
 ### Hosting
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
