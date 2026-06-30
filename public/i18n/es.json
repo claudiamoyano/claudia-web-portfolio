@@ -1,0 +1,123 @@
+{
+  "altImages": {
+    "lilly": "Un lirio rosa con estambres marrones.",
+    "myPicture": "Una mujer con cabello oscuro y liso y gafas mira directamente a la cámara, vistiendo una chaqueta negra. El fondo está desenfocado.",
+    "honestamente": "Imagen borrosa de una mano apoyada contra una pared con texto superpuesto en español que dice 'Libérate de tu sufrimiento'. Se ven un banner y flechas de navegación.",
+    "oceanwinds": "Vista aérea de aerogeneradores marinos en el mar con texto en español que promociona la energía eólica marina para España.",
+    "genexit": "Página de inicio de sesión o creación de cuenta de Genexit que muestra campos para DNI, NIE o Pasaporte y contraseña, con opciones para recordar usuario, restablecer contraseña y crear una nueva cuenta.",
+    "f5futsal": "Jugadores juveniles de fútbol sala compiten en interior, con dos niños con camisetas amarillas superpuestos sobre la escena y el texto 'Welcome F5 Futsal' mostrado de forma prominente en el centro."
+  },
+
+  "navigation": {
+    "nav": "Menú",
+    "about": "¿Quién soy?",
+    "projects": "Proyectos",
+    "experience": "Experiencia y habilidades",
+    "studies": "Estudios e idiomas",
+    "language": "Idioma",
+    "theme": "Tema"
+  },
+
+  "home": {
+    "role": "Desarrolladora Front-End · Estudiante de Creación y Diseño Digital",
+    "aboutMe": "Inicié mi trayectoria en el mundo de la programación cuando decidí cursar el ciclo formativo de Desarrollo de Aplicaciones Web. Hoy en día estoy cursando el grado en Creación y Diseño Digitales en la Universitat Oberta de Catalunya. Mi objetivo profesional es desarrollarme como diseñadora UX/UI y programadora.",
+    "downloadCV": "Descargar mi CV",
+
+    "projects": "¡Explora mis proyectos",
+    "linkedin": "Conecta conmigo en LinkedIn",
+    "github": "Visita mi GitHub",
+    "instagram": "Sígueme en Instagram"
+  },
+
+  "projects": {
+    "title": "PROYECTOS",
+    "viewProject": "Ver proyecto",
+    "honestamente": "Colaboré en el desarrollo de la web de Honestamente, el sitio web de una psicóloga. Trabajé con WordPress y Elementor para la creación de secciones y contenidos, implementé animaciones con GSAP, y contribuí a la optimización SEO y de rendimiento del sitio.",
+    "oceanWinds": "Realicé diversas tareas de colaboración en la web de Ocean Winds, trabajando con WordPress y Elementor para la creación de contenidos y secciones, implementando animaciones con GSAP, y haciendo ajustes de optimización y SEO.",
+    "genexit": "Participé en el desarrollo de una aplicación web con Angular y TypeScript para Genexit, trabajando con componentes modulares, gestión de estados con RxJS, y una interfaz responsive optimizada para el rendimiento.",
+    "f5Futsal": "Desarrollé la página web completa de F5 Futsal en colaboración con un compañero de prácticas. El proyecto incluye la creación de una web deportiva con WordPress y Elementor, implementación de animaciones con GSAP, diseño responsive, optimización de rendimiento y SEO, y configuración completa de la estructura del sitio para mostrar información del club, equipos, horarios y resultados.",
+    "f5FutsalNote": "La página fue eliminada, así que el enlace es de Wayback Machine."
+  },
+
+  "experience": {
+    "title": "EXPERIENCIA",
+    "columnDate": "FECHA",
+    "columnRole": "PUESTO",
+
+    "role1": {
+      "dateStart": "Jun 2026",
+      "company": "Dependiente de tienda en Primark",
+      "description": "Mis tareas abarcaron desde la reposición constante de existencias y el mantenimiento del orden en los lineales hasta la atención al cliente en cajas y en sala de ventas. También consolidé mi capacidad para trabajar bajo presión, gestionar el tiempo de forma eficiente y mantener la constancia en la calidad del servicio, incluso en las horas punta."
+    },
+
+    "role2": {
+      "dateStart": "Feb 2024",
+      "dateEnd": "Dic 2024",
+      "company": "Desarrolladora Front-End en 5SKILL SOLUTIONS",
+      "description": "Desarrollé interfaces interactivas utilizando Angular, implementando RxJS para gestionar estados y flujos de datos. Construí componentes modulares, asegurando un código mantenible y escalable. Optimicé aplicaciones existentes mediante técnicas de refactorización y utilicé PrimeNG para implementar interfaces consistentes. Colaboré con el equipo de Back-End, trabajando con Nest.js para integrar funcionalidades. Gestioné todo el proceso de desarrollo usando Git/GitHub en un entorno Scrum. Como parte del ciclo de diseño, prototipé interfaces básicas en Figma para validar ideas antes de su implementación."
+    },
+
+    "role3": {
+      "dateStart": "Oct 2023",
+      "dateEnd": "Ene 2024",
+      "company": "Desarrolladora Front-End en Several.pro",
+      "description": "Desarrollé sitios web con WordPress, utilizando HTML, CSS, JavaScript, PHP y jQuery para crear páginas dinámicas y adaptativas. Implementé herramientas como Elementor y GSAP para diseños interactivos, configuré y optimicé WooCommerce para e-commerce, y trabajé en SEO para mejorar el posicionamiento y atraer tráfico orgánico."
+    },
+
+    "role4": {
+      "dateStart": "Oct 2019",
+      "dateEnd": "Mar 2020",
+      "organization": "Voluntariado sobre biodiversidad y ecosistemas en SCEA - Societat Catalana d'Educació Ambiental",
+      "description": "Realicé mantenimiento integral de ecosistemas terrestres, acuáticos y entornos urbanos. Llevé a cabo estudios sobre la contaminación del río Llobregat y analicé su impacto en el entorno natural. Contribuí con la plantación de árboles y me aseguré de regarlos con agua del mismo río. Además, clasifiqué aves mediante anillamiento personalizado y mantuve un registro detallado de los ejemplares."
+    }
+  },
+
+  "skills": {
+    "title": "HABILIDADES",
+    "columnCategory": "CATEGORÍA",
+    "columnTechnologies": "LENGUAJES Y PROGRAMAS",
+    "categoryVersionControl": "Control de versiones",
+    "categoryDesign": "Diseño"
+  },
+
+  "education": {
+    "title": "ESTUDIOS",
+    "columnInstitution": "CENTRO DE ESTUDIOS",
+
+    "uoc": {
+      "dateStart": "Sep 2025",
+      "dateEnd": "Actualmente",
+      "degree": "Grado Online de Diseño y Creación Digitales"
+    },
+
+    "sepe1": {
+      "dateStart": "Nov 2025",
+      "dateEnd": "Dic 2025",
+      "title": "Curso Subvencionado de Creación de contenidos digitales y programación (ACTIC Nivel avanzado)"
+    },
+
+    "sepe2": {
+      "dateStart": "Oct 2025",
+      "dateEnd": "Nov 2025",
+      "title": "Curso Subvencionado de Fundamentos de Programación para Python"
+    },
+
+    "ieti": {
+      "dateStart": "Sep 2022",
+      "dateEnd": "Jun 2025",
+      "title": "Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web"
+    }
+  },
+
+  "languages": {
+    "title": "IDIOMAS",
+    "columnLanguage": "IDIOMA",
+    "columnLevel": "NIVEL",
+    "catalan": "Catalán",
+    "spanish": "Castellano",
+    "english": "Inglés",
+    "nativeLevel": "Nativo",
+    "eoiCertificate1": "Certificado de Inglés C1 (MCER) - Nivel Advanced (2026)",
+    "eoiCertificate2": "Certificado de Inglés B2 (MCER) - Nivel Upper-Intermediate (2022)"
+  }
+}

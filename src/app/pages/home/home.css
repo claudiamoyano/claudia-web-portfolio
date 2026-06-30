@@ -1,0 +1,315 @@
+.home__container--section {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.decorative-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15.5rem;
+  height: auto;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.home__container--section > *:not(.decorative-bg) {
+  position: relative;
+  z-index: 1;
+}
+
+.home__without__img--section {
+  padding: 6.125rem 9.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.upper__container--section {
+  gap: 1.75rem;
+}
+
+.info__container--section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+p {
+  color: var(--text);
+}
+
+.name__container--section p,
+.location__container--element {
+  color: var(--text);
+}
+
+.location__container--element {
+  font-size: 0.75rem;
+}
+
+.personalinfo__container--section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.description__container--element {
+  line-height: 1.5rem;
+}
+
+.button__container--section {
+  display: flex;
+  flex-direction: row;
+  gap: 1.125rem;
+}
+
+.cv__container--button {
+  width: fit-content;
+  padding: 1.125rem;
+  border-radius: 0.875rem;
+  background-color: var(--colour-pop);
+  box-shadow: 0.063rem 0.063rem 0.25rem rgba(0, 0, 0, 0.024);
+}
+
+.cv__container--button p {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.white__container--button {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem 1.5rem;
+  border: 0.063rem solid rgba(0, 0, 0, 0.014);
+  border-radius: 0.875rem;
+  background-color: var(--sidebar-background);
+  box-shadow: 0.063rem 0.063rem 0.25rem rgba(0, 0, 0, 0.024);
+}
+
+.cv__container--button > p {
+  color: var(--background);
+}
+
+.white__container--button i {
+  color: var(--colour-pop);
+  font-size: 1.25rem;
+}
+
+/* ----------------------------------------------------- */
+/* PROJECTES */
+
+.bentobox__section--container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.bentobox__section--row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+/* ----------------------------------------------------- */
+/* ANIMACIÓ D'IMATGES */
+
+.bentobox__section--full {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  padding: 2rem;
+  min-height: 11.25rem;
+  background: var(--sidebar-background);
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.bentobox--projects::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/public/projects/f5futsal.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+  z-index: 0;
+}
+
+.bentobox--linkedin::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/public/socialmedia/linkedin.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+  z-index: 0;
+}
+
+.bentobox--github::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/public/socialmedia/github.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+  z-index: 0;
+}
+
+.bentobox--instagram::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/public/socialmedia/instagram.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+  z-index: 0;
+}
+
+.bentobox__section--full::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3));
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  z-index: 1;
+}
+
+.bentobox__section--full:hover::before {
+  opacity: 1;
+}
+
+.bentobox__section--full:hover::after {
+  opacity: 1;
+}
+
+.bentobox__section--full a {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  color: var(--text);
+  transition: all 0.5s ease;
+}
+
+.bentobox__section--full:hover a {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.bentobox__section--full:hover .arrow-hint {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* ----------------------------------------------------- */
+/* RESPONSIVE */
+
+@media (max-width: 1279px) {
+  .decorative-bg {
+    width: 20%;
+  }
+}
+
+@media (max-width: 768px) {
+  .home__without__img--section {
+    padding: 6rem 2rem;
+  }
+  
+  .cv__container-button,
+  .white__container--button {
+    padding: 0.25rem 1.125rem;
+  }
+
+  .upper__container--section {
+    width: 100%;
+  }
+
+  .bentobox__section--row {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .decorative-bg {
+    width: 20%;
+  }
+
+  .button__container--section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.75rem;
+  }
+
+  .cv__container--button {
+    grid-column: 1 / -1;
+    width: 100%;
+    padding: 1.125rem;
+  }
+
+  .white__container--button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.875rem;
+  }
+
+  .white__container--button i {
+    font-size: 1.25rem;
+  }
+
+  /* ----------------------------------------------------- */
+  /* BENTOBOX RESPONSIVE */
+
+  .bentobox__section--full {
+    padding: 1.5rem;
+    transition: none;
+    transform: none;
+  }
+
+  .bentobox--projects::before,
+  .bentobox--linkedin::before,
+  .bentobox--github::before,
+  .bentobox--instagram::before,
+  .bentobox__section--full::after {
+    opacity: 1;
+  }
+
+  .bentobox__section--full a {
+    color: #ffffff;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,70 @@
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.app-left-sidebar {
+  flex: 0 0 15.625rem;
+}
+
+.main-content {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* ----------------------------------------------------- */
+
+/* SVG AURA */
+.aura-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.aura-background svg {
+  width: 150%;
+  height: 150%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: liquidMove 25s ease-in-out infinite alternate;
+}
+
+@keyframes liquidMove {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(1) skewX(0deg);
+  }
+  20% {
+    transform: translate(-48%, -52%) rotate(2deg) scale(1.02) skewX(2deg);
+  }
+  40% {
+    transform: translate(-52%, -48%) rotate(-3deg) scale(0.98) skewX(-1deg);
+  }
+  60% {
+    transform: translate(-47%, -53%) rotate(4deg) scale(1.03) skewX(3deg);
+  }
+  80% {
+    transform: translate(-53%, -47%) rotate(-2deg) scale(0.97) skewX(-2deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(1deg) scale(1) skewX(0deg);
+  }
+}
+
+.app-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  overflow-y: auto;
+}

@@ -1,0 +1,113 @@
+.studies-languages-skills__section {
+  padding: 6.125rem 9.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 7.75rem;
+}
+
+.section__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.section__grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2.125rem;
+}
+
+.section__headerdivider {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.section__header {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 2rem;
+}
+
+.section__item {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 2rem;
+}
+
+.section__label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.section__label p {
+  margin: 0;
+}
+
+.section__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.section__content h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.section__content p {
+  margin: 0;
+}
+
+.language__content--english {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* ----------------------------------------------------- */
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .studies-languages-skills__section {
+    padding: 6rem 2rem;
+  }
+
+  .section__item {
+    display: flex;
+    flex-direction: column;
+    gap: 15.25rem;
+  }
+
+  .section__content {
+    display: flex;
+    flex-direction: column; 
+    gap: 0.875rem;
+  }
+
+  .section__headerdivider {
+    display: none;
+  }
+
+  .section__header,
+  .section__item {
+    grid-template-columns: 1fr;
+    gap: 2.125rem;
+  }
+
+  .section__label {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.75rem;
+  }
+
+  .h5__without__bold {
+    font-weight: 500;
+  }
+}

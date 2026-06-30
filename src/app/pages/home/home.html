@@ -1,0 +1,104 @@
+<div class="home__container--section">
+  <img class="decorative-bg" src="/public/lilly.png" [attr.alt]="'altImages.lilly' | translate" />
+
+  <div class="home__without__img--section">
+    <div class="upper__container--section">
+      <div class="personalinfo__container--section">
+        <img src="/public/claudia.png" [attr.alt]="'altImages.myPicture' | translate" />
+
+        <div class="name__container--section">
+          <h1>Claudia Moyano</h1>
+          <p>{{ 'home.role' | translate }}</p>
+        </div>
+      </div>
+
+      <div class="info__container--section">
+        <p class="location__container--element">📍 BARCELONA</p>
+        <p class="description__container--element">{{ 'home.aboutMe' | translate }}</p>
+
+        <div class="button__container--section">
+          <!-- CV -->
+          <a
+            href="/public/cv/Moyano_Claudia_CV.pdf"
+            download="Moyano_Claudia_CV.pdf"
+            class="cv__container--button"
+          >
+            <p>{{ 'home.downloadCV' | translate }} <small>(.pdf, 265KB)</small></p>
+          </a>
+
+          <!-- CORREU -->
+          <a href="mailto:claudiamoyano@proton.me" class="white__container--button">
+            <i class="pi pi-at"></i>
+          </a>
+
+          <!-- LINKEDIN -->
+          <a
+            href="https://www.linkedin.com/in/cmoyanoh/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="white__container--button"
+          >
+            <i class="pi pi-linkedin"></i>
+          </a>
+
+          <!-- GITHUB -->
+          <a
+            href="https://github.com/claudiamoyano"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="white__container--button"
+          >
+            <i class="pi pi-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------------------------------------------------------------------------------------------------->
+    <!-- SECCIÓ BENTOBOX -->
+
+    <div class="bentobox__section--container">
+      <div class="bentobox__section--row">
+        <div class="bentobox__section--element bentobox__section--full bentobox--projects">
+          <a [routerLink]="['/projects']">{{ 'home.projects' | translate }}! :D</a>
+        </div>
+
+        <div class="bentobox__section--element bentobox__section--full bentobox--linkedin">
+          <a
+            href="https://www.linkedin.com/in/cmoyanoh/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link"
+          >
+            {{ 'home.linkedin' | translate }}
+          </a>
+        </div>
+      </div>
+
+      <div class="bentobox__section--row">
+        <div class="bentobox__section--element bentobox__section--full bentobox--github">
+          <a
+            href="https://github.com/claudiamoyano"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link"
+          >
+            {{ 'home.github' | translate }}
+          </a>
+        </div>
+
+        <div class="bentobox__section--element bentobox__section--full bentobox--instagram">
+          <a
+            href="https://www.instagram.com/licorlima.vs"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-link"
+          >
+            {{ 'home.instagram' | translate }}
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,123 @@
+{
+  "altImages": {
+    "lilly": "A delicate pink lily featuring contrasting brown stamens.",
+    "myPicture": "A woman with straight dark hair and glasses looks directly at the camera, wearing a black jacket. The background is out of focus.",
+    "honestamente": "A blurred image of a hand leaning against a wall with text overlay in Spanish that reads Libérate de tu sufrimiento. A banner and navigation arrows are visible.",
+    "oceanwinds": "Aerial view of offshore wind turbines at sea with text in Spanish promoting marine wind energy for Spain.",
+    "genexit": "Login or account creation page for Genexit showing fields for DNI, NIE, or Passport and password, with options to remember user, reset password, and create a new account.",
+    "f5futsal": "Youth futsal players compete indoors, with two children in yellow jerseys superimposed over the scene and the text Welcome F5 Futsal displayed prominently in the center."
+  },
+
+  "navigation": {
+    "nav": "Menu",
+    "about": "Who am I?",
+    "projects": "Projects",
+    "experience": "Experience and skills",
+    "studies": "Education and languages",
+    "language": "Language",
+    "theme": "Theme"
+  },
+
+  "home": {
+    "role": "Front-End Developer · Digital Design & Creation Student",
+    "aboutMe": "I started my journey in programming when I decided to take a vocational training course in Web Application Development. Currently, I am pursuing a degree in Digital Design and Creation at the Universitat Oberta de Catalunya (UOC). My professional goal is to build my career as a UX/UI designer and developer.",
+    "downloadCV": "Download my CV",
+
+    "projects": "Explore my projects",
+    "linkedin": "Let's connect on LinkedIn",
+    "github": "Check out my GitHub",
+    "instagram": "Follow me on Instagram"
+  },
+
+  "projects": {
+    "title": "PROJECTS",
+    "viewProject": "View project",
+    "honestamente": "I collaborated on the development of Honestamente's website, a psychologist's website. I worked with WordPress and Elementor to create sections and content, implemented animations with GSAP, and contributed to SEO and performance optimization.",
+    "oceanWinds": "I carried out various collaboration tasks on the Ocean Winds website, working with WordPress and Elementor to create content and sections, implementing animations with GSAP, and making SEO and optimization adjustments.",
+    "genexit": "I participated in the development of a web application with Angular and TypeScript for Genexit, working with modular components, state management with RxJS, and a responsive interface optimized for performance.",
+    "f5Futsal": "I developed the complete F5 Futsal website in collaboration with a fellow intern. The project includes creating a sports website with WordPress and Elementor, implementing GSAP animations, responsive design, performance and SEO optimization, and complete site structure configuration to display the club information.",
+    "f5FutsalNote": "The page was removed, so the link takes you to the Wayback Machine page."
+  },
+
+  "experience": {
+    "title": "EXPERIENCE",
+    "columnDate": "DATE",
+    "columnRole": "ROLE",
+
+    "role1": {
+      "dateStart": "Jun 2026",
+      "company": "Sales assistant at Primark",
+      "description": "My responsibilities ranged from constantly restocking shelves and maintaining order on the sales floor to providing customer service at the checkout and on the shop floor. I also honed my ability to work under pressure, manage my time efficiently, and deliver consistent service quality, even during peak hours."
+    },
+
+    "role2": {
+      "dateStart": "Feb 2024",
+      "dateEnd": "Dec 2024",
+      "company": "Front-End Developer at 5SKILL SOLUTIONS",
+      "description": "Developed interactive interfaces using Angular, implementing RxJS to manage states and data flows. Built modular components, ensuring maintainable and scalable code. Optimized existing applications through refactoring techniques and used PrimeNG to implement consistent interfaces. Collaborated with the Back-End team, working with Nest.js to integrate functionalities. Managed the entire development process using Git/GitHub in a Scrum environment. As part of the design cycle, I prototyped basic interfaces in Figma to validate ideas before implementation."
+    },
+
+    "role3": {
+      "dateStart": "Oct 2023",
+      "dateEnd": "Jan 2024",
+      "company": "Front-End Developer at Several.pro",
+      "description": "Developed websites with WordPress, using HTML, CSS, JavaScript, PHP and jQuery to create dynamic and adaptive pages. Implemented tools like Elementor and GSAP for interactive designs, configured and optimized WooCommerce for e-commerce, and worked on SEO to improve positioning and attract organic traffic."
+    },
+
+    "role4": {
+      "dateStart": "Oct 2019",
+      "dateEnd": "Mar 2020",
+      "organization": "Biodiversity and Ecosystem Volunteer at SCEA - Societat Catalana d'Educació Ambiental",
+      "description": "Performed comprehensive maintenance of terrestrial, aquatic and urban ecosystems. Conducted studies on pollution of the Llobregat River and analyzed its impact on the natural environment. Contributed to tree planting and ensured they were watered with water from the same river. Additionally, classified birds through personalized banding and maintained detailed records of specimens."
+    }
+  },
+
+  "skills": {
+    "title": "SKILLS",
+    "columnCategory": "CATEGORY",
+    "columnTechnologies": "TECHNOLOGIES & APPS",
+    "categoryVersionControl": "Version control",
+    "categoryDesign": "Design"
+  },
+
+  "education": {
+    "title": "EDUCATION",
+    "columnInstitution": "INSTITUTION",
+
+    "uoc": {
+      "dateStart": "Sep 2025",
+      "dateEnd": "Present",
+      "degree": "Online Degree in Digital Design and Creation"
+    },
+
+    "sepe1": {
+      "dateStart": "Nov 2025",
+      "dateEnd": "Dec 2025",
+      "title": "Subsidized Course in Digital Content Creation and Programming (ACTIC Advanced Level)"
+    },
+
+    "sepe2": {
+      "dateStart": "Oct 2025",
+      "dateEnd": "Nov 2025",
+      "title": "Subsidized Course in Python Programming Fundamentals"
+    },
+
+    "ieti": {
+      "dateStart": "Sep 2022",
+      "dateEnd": "Jun 2025",
+      "title": "Higher Vocational Training in Web Application Development"
+    }
+  },
+
+  "languages": {
+    "title": "LANGUAGES",
+    "columnLanguage": "LANGUAGE",
+    "columnLevel": "LEVEL",
+    "catalan": "Catalan",
+    "spanish": "Spanish",
+    "english": "English",
+    "nativeLevel": "Native",
+    "eoiCertificate1": "C1 English Certificate (CEFR) - Advanced level (2026)",
+    "eoiCertificate2": "B2 English Certificate (CEFR) - Upper-Intermediate level (2022)"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "altImages": {
+    "lilly": "Un lliri rosa amb estams marrons.",
+    "myPicture": "Una dona amb cabell fosc i llis i ulleres mira directament a la càmera, vestint una jaqueta negra. El fons està desenfocat.",
+    "honestamente": "Imatge borrosa d'una mà recolzada contra una paret amb text superposat en castellà que diu 'Libérate de tu sufrimiento'. Es veuen un bàner i fletxes de navegació.",
+    "oceanwinds": "Vista aèria d'aerogeneradors marins al mar amb text en castellà que promociona l'energia eòlica marina per a Espanya.",
+    "genexit": "Pàgina d'inici de sessió o creació de compte de Genexit que mostra camps per a DNI, NIE o Passaport i contrasenya, amb opcions per recordar usuari, restablir contrasenya i crear un compte nou.",
+    "f5futsal": "Jugadors juvenils de futbol sala competeixen a l'interior, amb dos nens amb samarretes grogues superposats sobre l'escena i el text 'Welcome F5 Futsal' mostrat de manera prominent al centre."
+  },
+
+  "navigation": {
+    "nav": "Menú",
+    "about": "Qui soc?",
+    "projects": "Projectes",
+    "experience": "Experiència i habilitats",
+    "studies": "Estudis i idiomes",
+    "language": "Idioma",
+    "theme": "Tema"
+  },
+
+  "home": {
+    "role": "Desenvolupadora Front-End · Estudiant de Creació i Disseny Digital",
+    "aboutMe": "Vaig iniciar la meva trajectòria en el món de la programació quan vaig decidir cursar el cicle formatiu de Desenvolupament d'Aplicacions Web. Avui en dia estic cursant el grau en Creació i Disseny Digitals a la Universitat Oberta de Catalunya. El meu objectiu professional és desenvolupar-me com a dissenyadora UX/UI i programadora.",
+    "downloadCV": "Descarrega el meu CV",
+
+    "projects": "Explora els meus projectes",
+    "linkedin": "Connecta amb mi a LinkedIn",
+    "github": "Visita el meu GitHub",
+    "instagram": "Segueix-me a Instagram"
+  },
+
+  "projects": {
+    "title": "PROJECTES",
+    "viewProject": "Veure el projecte",
+    "honestamente": "Vaig col·laborar en el desenvolupament de la web d'Honestamente, el lloc web d'una psicòloga. Vaig treballar amb WordPress i Elementor per a la creació de seccions i continguts, vaig implementar animacions amb GSAP, i vaig contribuir a l'optimització SEO i de rendiment del lloc.",
+    "oceanWinds": "Vaig realitzar diverses tasques de col·laboració a la web d'Ocean Winds, treballant amb WordPress i Elementor per a la creació de continguts i seccions, implementant animacions amb GSAP, i fent ajustos d'optimització i SEO.",
+    "genexit": "Vaig participar en el desenvolupament d'una aplicació web amb Angular i TypeScript per a Genexit, treballant amb components modulars, gestió d'estats amb RxJS, i una interfície responsive optimitzada per al rendiment.",
+    "f5Futsal": "Vaig desenvolupar la pàgina web completa de F5 Futsal en col·laboració amb un company de pràctiques. El projecte inclou la creació d'una web esportiva amb WordPress i Elementor, implementació d'animacions amb GSAP, disseny responsive, optimització de rendiment i SEO, i configuració completa de l'estructura del lloc per mostrar informació del club, equips, horaris i resultats.",
+    "f5FutsalNote": "La pàgina va ser eliminada, així que l'enllaç és de Wayback Machine."
+  },
+
+  "experience": {
+    "title": "EXPERIÈNCIA",
+    "columnDate": "DATA",
+    "columnRole": "CÀRREC",
+
+    "role1": {
+      "dateStart": "Jun 2026",
+      "company": "Dependenta de botiga a Primark",
+      "description": "Les meves responsabilitats anaven des de reomplir constantment els prestatges i mantenir l'ordre a la planta de vendes fins a proporcionar atenció al client a la caixa i a la botiga. També vaig perfeccionar la meva capacitat per treballar sota pressió, gestionar el meu temps de manera eficient i oferir una qualitat de servei constant, fins i tot durant les hores punta."
+    },
+
+    "role2": {
+      "dateStart": "Feb 2024",
+      "dateEnd": "Des 2024",
+      "company": "Desenvolupadora Front-End a 5SKILL SOLUTIONS",
+      "description": "Vaig desenvolupar interfícies interactives utilitzant Angular, implementant RxJS per gestionar estats i fluxos de dades. Vaig construir components modulars, assegurant un codi mantenible i escalable. Vaig optimitzar aplicacions existents mitjançant tècniques de refactorització i vaig utilitzar PrimeNG per implementar interfícies consistents. Vaig col·laborar amb l'equip de Back-end, treballant amb Nest.js per integrar funcionalitats. Vaig gestionar tot el procés de desenvolupament usant Git/GitHub en un entorn Scrum. Com a part del cicle de disseny, vaig prototipar interfícies bàsiques a Figma per validar idees abans de la seva implementació."
+    },
+
+    "role3": {
+      "dateStart": "Oct 2023",
+      "dateEnd": "Gen 2024",
+      "company": "Desenvolupadora Front-End a Several.pro",
+      "description": "Vaig desenvolupar llocs web amb WordPress, utilitzant HTML, CSS, JavaScript, PHP i jQuery per crear pàgines dinàmiques i adaptatives. Vaig implementar eines com Elementor i GSAP per a dissenys interactius, vaig configurar i optimitzar WooCommerce per a e-commerce, i vaig treballar en SEO per millorar el posicionament i atraure trànsit orgànic."
+    },
+
+    "role4": {
+      "dateStart": "Oct 2019",
+      "dateEnd": "Mar 2020",
+      "organization": "Voluntariat sobre biodiversitat i ecosistemes a SCEA - Societat Catalana d'Educació Ambiental",
+      "description": "Vaig fer manteniment integral d'ecosistemes terrestres, aquàtics i entorns urbans. Vaig dur a terme estudis sobre la contaminació del riu Llobregat i en vaig analitzar l'impacte a l'entorn natural. Vaig contribuir amb la plantació d'arbres i em vaig assegurar de regar-los amb aigua del mateix riu. A més, vaig classificar aus mitjançant anellament personalitzat i vaig mantenir un registre detallat dels exemplars."
+    }
+  },
+
+  "skills": {
+    "title": "HABILITATS",
+    "columnCategory": "CATEGORIA",
+    "columnTechnologies": "LLENGUATGES I PROGRAMES",
+    "categoryVersionControl": "Control de versions",
+    "categoryDesign": "Disseny"
+  },
+
+  "education": {
+    "title": "ESTUDIS",
+    "columnInstitution": "CENTRE D'ESTUDIS",
+
+    "uoc": {
+      "dateStart": "Set 2025",
+      "dateEnd": "Actualment",
+      "degree": "Grau Online de Disseny i Creació Digitals"
+    },
+
+    "sepe1": {
+      "dateStart": "Nov 2025",
+      "dateEnd": "Des 2025",
+      "title": "Curs Subvencionat de Creació de continguts digitals i programació (ACTIC Nivell avançat)"
+    },
+
+    "sepe2": {
+      "dateStart": "Oct 2025",
+      "dateEnd": "Nov 2025",
+      "title": "Curs Subvencionat de Fonaments de Programació per a Python"
+    },
+
+    "ieti": {
+      "dateStart": "Set 2022",
+      "dateEnd": "Jun 2025",
+      "title": "Cicle Formatiu de Grau Superior en Desenvolupament d'Aplicacions Web"
+    }
+  },
+
+  "languages": {
+    "title": "IDIOMES",
+    "columnLanguage": "IDIOMA",
+    "columnLevel": "NIVELL",
+    "catalan": "Català",
+    "spanish": "Castellà",
+    "english": "Anglès",
+    "nativeLevel": "Natiu",
+    "eoiCertificate1": "Certificat d'Anglès C1 (MCER) - Nivell Advanced (2026)",
+    "eoiCertificate2": "Certificat d'Anglès B2 (MCER) - Nivell Upper-Intermediate"
+  }
+}
